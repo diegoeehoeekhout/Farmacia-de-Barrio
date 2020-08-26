@@ -1,0 +1,7 @@
+create database registro;
+use registro;
+create table persona(
+Id int AUTO_INCREMENT,
+DNI varchar (40),
+Nombres varchar (40), 
+ PRIMARY KEY (Id));
